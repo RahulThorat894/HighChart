@@ -1,0 +1,31 @@
+{
+  "posts": [
+    
+   
+   
+    {
+      "Coustmer": "Rahul Thorat",
+      "Date": "2023-12-11",
+      "Amont": 200,
+      "Status": "ok",
+      "id": 6
+    },
+    {
+      "Coustmer": "Rahul Thorat",
+      "Date": "2023-12-11",
+      "Amont": 200,
+      "Status": "ok",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

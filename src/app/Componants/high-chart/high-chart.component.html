@@ -1,0 +1,419 @@
+<!-- Dasgbord start -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="Dashbord">
+      <div class="das1">
+        <div class="sidebar">
+          <div class="SliderHead">
+          <h4>Dashbord</h4>
+        </div>
+          <ul>
+            <div class="iteam bg">
+              <div
+                style="
+                  display: flex;
+                  background-color: rgb(194, 214, 218);
+                  width: 250px;
+                  padding: 7px;
+                  border-radius: 8px;
+                "
+              >
+                <mat-icon>home</mat-icon>
+                <span>Home</span>
+              </div>
+            </div>
+            <div class="iteam">
+              <mat-icon>timeline</mat-icon>
+              <span>Analytics</span>
+            </div>
+            <div class="iteam">
+              <mat-icon>timeline</mat-icon>
+              <span>Sales</span>
+            </div>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h4>Quick Manu</h4>
+          <ul>
+            <div class="iteam">
+              <div
+                style="
+                  display: flex;
+                  background-color: rgb(194, 214, 218);
+                  width: 250px;
+                  padding: 7px;
+                  border-radius: 8px;
+                "
+              >
+                <mat-icon>people_outline </mat-icon>
+                <span
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Users
+                </span>
+              </div>
+            </div>
+            <div class="iteam">
+              <mat-icon>add_shopping_cart</mat-icon>
+              <span>Products</span>
+            </div>
+            <div class="iteam">
+              <mat-icon>account_balance_wallet</mat-icon>
+              <span>Transactions</span>
+            </div>
+            <div class="iteam">
+              <mat-icon>reports</mat-icon>
+              <span>Report</span>
+            </div>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h4>Notifications</h4>
+          <ul>
+            <div class="iteam">
+              <div
+                style="
+                  display: flex;
+                  background-color: rgb(194, 214, 218);
+                  width: 250px;
+                  padding: 7px;
+                  border-radius: 8px;
+                "
+              >
+                <mat-icon>mail</mat-icon>
+                <span routerLink="user">Mail</span>
+              </div>
+            </div>
+            <div class="iteam">
+              <mat-icon>feedback</mat-icon>
+              <span>Feedback</span>
+            </div>
+            <div class="iteam">
+              <mat-icon>messages</mat-icon>
+              <span>Messages</span>
+            </div>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h4>Staff</h4>
+          <ul>
+            <div class="iteam">
+              <div
+                style="
+                  display: flex;
+                  background-color: rgb(194, 214, 218);
+                  width: 250px;
+                  padding: 7px;
+                  border-radius: 8px;
+                "
+              >
+                <mat-icon>manage</mat-icon>
+                <span>Manage</span>
+              </div>
+            </div>
+            <div class="iteam">
+              <mat-icon>analytics</mat-icon>
+              <span>Analytics</span>
+            </div>
+            <div class="iteam">
+              <mat-icon>reports</mat-icon>
+              <span>Reports</span>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dasbord End -->
+  <!-- Header Column start -->
+  <div class="col-6">
+    <div class="dis">
+      <div class="box1">
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 30px;
+            color: cadetblue;
+          "
+        >
+          Revanue
+        </h1>
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 40px;
+            font-size: 30px;
+            display: flex;
+          "
+        >
+          $2.415
+          <h6 style="margin-left: 15px; margin-top: 8px">-11.4↓</h6>
+        </h1>
+        <h3 style="margin-top: 20px; margin-left: 30px; color: cadetblue">
+          Compared to last month
+        </h3>
+      </div>
+      <div class="box1">
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 30px;
+            color: cadetblue;
+          "
+        >
+          Sales
+        </h1>
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 40px;
+            font-size: 30px;
+            display: flex;
+          "
+        >
+          $4.415
+          <h6 style="margin-left: 15px; margin-top: 8px">-1.4↓</h6>
+        </h1>
+        <h3 style="margin-top: 20px; margin-left: 30px; color: cadetblue">
+          Compared to last month
+        </h3>
+      </div>
+      <div class="box1">
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 30px;
+            color: cadetblue;
+          "
+        >
+          Cost
+        </h1>
+        <h1
+          style="
+            margin-top: 20px;
+            margin-left: 40px;
+            font-size: 30px;
+            display: flex;
+          "
+        >
+          $2.225
+          <h6 style="margin-left: 15px; margin-top: 8px">+2.4</h6>
+        </h1>
+        <h3 style="margin-top: 20px; margin-left: 30px; color: cadetblue">
+          Compared to last month
+        </h3>
+      </div>
+    </div>
+    <!-- Header Column End -->
+    <!-- High Chart start -->
+    <div class="box2">
+      <div class="charts">
+        <div class="line" [chart]="lineChart"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- High Chart End -->
+
+<!-- New Join Member start -->
+
+<div class="row">
+  <div class="col-md-6"></div>
+  <div class="col-6">
+    <div class="flex">
+      <div class="memberh">
+        <div class="member">
+          <h3><b>New Join Members</b></h3>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name">
+            <h6>Rahul Thorat</h6>
+            <p>Software Engineer</p>
+          </div>
+          <div class="display">
+            <mat-icon>visibility</mat-icon>
+            <span>Display</span>
+          </div>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name">
+            <h6>Rahul Thorat</h6>
+            <p>Software Engineer</p>
+          </div>
+          <div class="display">
+            <mat-icon>visibility</mat-icon>
+            <span>Display</span>
+          </div>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name">
+            <h6>Rahul Thorat</h6>
+            <p>Software Engineer</p>
+          </div>
+          <div class="display">
+            <mat-icon>visibility</mat-icon>
+            <span>Display</span>
+          </div>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name">
+            <h6>Rahul Thorat</h6>
+            <p>Software Engineer</p>
+          </div>
+          <div class="display">
+            <mat-icon>visibility</mat-icon>
+            <span>Display</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trans">
+        <div>
+          <h2><b>Latest Transaction</b></h2>
+        </div>
+        <div>
+          <table class="">
+            <thead>
+              <tr class="tr">
+                <th>Customer</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let i of userlist">
+              <tr class="td">
+                <td class="namee">
+                  <img
+                    src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg"
+                    alt=""
+                  />
+                  {{ i.Coustmer }}
+                </td>
+                <td>{{ i.Date }}</td>
+                <td>{{ i.Amont }}</td>
+                <td class="appr">{{ i.Status }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Models -->
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button
+          type="button"
+          class="close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="fromvalue">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Coustmer</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              formControlName="Coustmer"
+              aria-describedby="emailHelp"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="exampleInputPassword1"
+              formControlName="Date"
+              placeholder="Date"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Amount</label>
+            <input
+              type="number"
+              class="form-control"
+              id="exampleInputPassword1"
+              formControlName="Amont"
+              placeholder="Amount"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Status</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+              formControlName="Status"
+              placeholder="Status"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+            (click)="postData(fromvalue.value)"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

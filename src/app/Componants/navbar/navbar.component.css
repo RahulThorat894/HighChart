@@ -1,0 +1,9 @@
+.HeadName {
+    background-color: rgb(244, 241, 241);
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    padding: 15px;
+    /* box-shadow: 5px 5px 10px yellowgreen */
+  }

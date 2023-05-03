@@ -1,0 +1,95 @@
+.Dashbord {
+    width: 340px;
+    height: 1000px;
+    /* border: 1px solid black ; */
+    background-color: rgb(231, 242, 242);
+    margin-top: 90px;
+    /* border: 1px solid white; */
+    position: fixed;
+  }
+  .box1 {
+    width: 550px;
+    height: 250px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    margin: 60px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+  }
+  .dis {
+    display: flex;
+    margin-left: -800px;
+    margin-top: 40px;
+  }
+  .box2 {
+    height: 600px;
+    width: 1780px;
+    border: 1px solid black;
+    margin-left: -740px;
+    box-shadow: 5px 5px 10px black;
+  }
+  .charts {
+    margin-top: 70px;
+  }
+  
+  .home {
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 6px;
+    background-color: cyan;
+  }
+  .das {
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  .das h4 {
+    margin-top: 25px;
+    color: dimgray;
+  }
+  .das1 {
+    /* margin-top: zpx; */
+    margin-left: 40px;
+  }
+  .sidebar {
+    margin-top: 60px;
+  }
+  .iteam {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .iteam span {
+    margin-left: 10px;
+  }
+  .table th
+  {
+    padding: 20px;
+    font-size: larger;
+  }
+  .table td
+  {
+    font-size: larger;
+  }
+  
+
+  
+
+     
+      .box4
+      {
+        margin-top: 110px;
+        width: 165vh;
+        margin-left: -700px;
+        height: 700px;
+        /* border: 1px solid black; */
+      }
+     
+      .name
+      {
+        display: flex;
+      }
